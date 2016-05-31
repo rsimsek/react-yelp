@@ -5,7 +5,7 @@ import styles from './styles.module.css'
 
 const App = React.createClass({
   render: function() {
-    return (<div className = {styles['container']}>
+    return (<div className = {styles.wrapper}>
             Hello World!!!
             </div>)
   }
